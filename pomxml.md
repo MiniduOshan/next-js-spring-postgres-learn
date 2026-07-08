@@ -1,0 +1,2 @@
+1. pom.xml (The Supply Truck)
+This file is like the supply truck for your restaurant. Instead of manually downloading Java libraries from the internet, you just write what you need in pom.xml (like Spring Web, PostgreSQL driver, Dotenv), and Maven automatically drives the truck to your project and downloads them for you. (It's exactly like package.json if you've ever used Node/React).
