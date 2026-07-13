@@ -1,0 +1,2 @@
+5. layout.tsx (The Building Foundation)
+This file wraps around everything. If you ever wanted to add a Navigation Bar at the top of your website, or a Footer at the bottom that appears on every single page, you would put it in layout.tsx. It also loads our custom Google Font ("Outfit") so the text looks modern.
