@@ -1,0 +1,2 @@
+4. globals.css (The Interior Designer)
+If page.tsx builds the walls, globals.css paints them. This file contains pure CSS. I added instructions here to give the app a "Glassmorphism" effect. It tells the browser to blur the backgrounds, add smooth gradients to the text, and slide the task items in smoothly when they appear.
