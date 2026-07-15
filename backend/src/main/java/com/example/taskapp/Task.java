@@ -14,13 +14,17 @@ public class Task {
     
     private String title;
     private boolean completed;
+    
+    // New Priority field (LOW, MEDIUM, HIGH)
+    private String priority = "LOW";
 
     public Task() {
     }
 
-    public Task(String title, boolean completed) {
+    public Task(String title, boolean completed, String priority) {
         this.title = title;
         this.completed = completed;
+        this.priority = priority;
     }
 
     public Long getId() {
@@ -45,5 +49,13 @@ public class Task {
 
     public void setCompleted(boolean completed) {
         this.completed = completed;
+    }
+
+    public String getPriority() {
+        return priority;
+    }
+
+    public void setPriority(String priority) {
+        this.priority = priority;
     }
 }
